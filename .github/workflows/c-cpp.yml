@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v4
     - name: make arm_sdk_install
       run: make arm_sdk_install
-    - name: make
-      run: make
+    - name: make all_fw
+      run: make all_fw
