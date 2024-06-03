@@ -19,5 +19,5 @@ jobs:
       uses: hendrikmuhs/ccache-action@v1.2
       with:
         create-symlink: true
-    - name: make all_fw
-      run: make all_fw
+    - name: make all_fw_package
+      run: make all_fw_package
